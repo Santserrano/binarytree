@@ -96,7 +96,7 @@ Puede utilizar la documentación didáctica para entender el funcionamiento del 
 Incluyen los archivos:
 `example.ipynb` `graph.ipynb`
 
-Aquí un ejemplo del contenido de `graph.ipynb`:
+Aquí un ejemplo del contenido de `graph.ipynb`, (Aún no fue definido pero esto ayudará a graficar el arbol):
 
 ```python
 from graphviz import Digraph
