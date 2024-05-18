@@ -31,6 +31,14 @@ Esta última dependencia no se encuentra en `requirements.txt` ya que no es nece
 pip install -r requirements.txt
 
 ```
+### Helpers y Bechmarks de funciones
+Ejecute `helpers.py` para obtener un bechmark entre el tiempo de ejecución de las funciones y paquetes.
+```bash
+python .\helpers.py
+
+```
+Obtendrá las salidas del tiempo de ejecución:
+![test](bechmarks.png)
 
 ### Ejemplo de uso - test
 
