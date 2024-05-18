@@ -3,6 +3,15 @@
 ![arbol](binary-tree.png)
 Un pequeño motor de arbol binario que proporciona una clase principal Arbol, que sirve como estructura principal para construir el Nodo raiz y realizar los recorridos. Puedes iniciar y testear esta clase con los archivos de la carpeta `/tests` o también puede ejecutar `main.py` para ingresar sus valores propios por teclado
 
+Guía rápida:
+`/engine` Incluye las clases y el archivo vacío `__init__.py` para definir la carpeta como paquete.
+`arbol.py` Clase main constructora del arbol y las salidas.
+`colors.py` Clase para modificar los colores de salida en consola.
+`nodo.py` Clase para el nodo raíz.
+`/examples` Contiene archivos de visualización `ipynb` para entender el funcionamiento del código.
+`main.py` Archivo de ejecución para ingresar elementos por teclado.
+`test.py` Archivo de ejecución con elementos previamente definidos.
+
 ### Instalación desde CMD o Powershell
 
 ```bash
@@ -11,7 +20,7 @@ git clone https://github.com/Santserrano/binarytree.git
 ```
 
 ### Instalación de dependencias
-Requirements instalará Jupyter Notebook para ejecutar los archivos `.ipynb` y Graphviz para graficar digrafos.
+`Requirements.txt` instalará Jupyter Notebook para ejecutar los archivos `.ipynb` y Graphviz para graficar digrafos.
 
 Al ejecutar los archivos `.ipynb` deberá seleccionar el kernel de python en caso de que use Visual Studio Code.
 Caso contrario, si utiliza la distribución de `Conda` deberá tener configuradas las dependencias en `Anaconda Navigator`
@@ -89,8 +98,6 @@ arbol.inorden()
 arbol.postorden()
 ```
 
-![2d neuron](moon_mlp.png)
-
 ### Jupyter Notebook / ipynb
 
 Los archivos de Jupyter Notebook, tales como `trace_graph.ipynb` produce gráficos de visualización para construir los digrafos. Estos archivos presentan la extensión `.ipynb` que, a diferencia de python `.py` ofrece ejecución en bloques de código y renderizado gráfico (ej. tablas, trazos, grafos, gráficas de función, etc).
@@ -148,7 +155,12 @@ git commit -m "Descripción breve de los cambios realizados"
 git push origin master
 ```
 
-También puede utilizar el siguiente comando para verificar el estado de los cambios que aún no han sido guardados.
+También puede utilizar el siguiente comando para verificar el estado de los cambios que aún no han sido guardados:
 ```bash
 git status
+```
+
+Para actualizar el repositorio local con el repositorio actualizado en github, utilice el siguiente comando:
+```bash
+git pull
 ```
