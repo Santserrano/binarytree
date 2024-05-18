@@ -41,19 +41,7 @@ python .\test.py
 ```
 Obtendrá la salida:
 
-```bash
-
-Nombres agregados: ['emma', 'olivia', 'isabella', 'sofia', 'emily', 'talulah', 'candela']
-
-...Corriendo test
-
-Imprimiendo árbol preorden:
-emma, emily, candela, olivia, isabella, sofia, talulah,
-Imprimiendo árbol inorden:
-candela, emily, emma, isabella, olivia, sofia, talulah,
-Imprimiendo árbol postorden:
-candela, emily, isabella, talulah, sofia, olivia, emma,
-```
+![test](test.png)
 
 ### Ejemplo de uso - valores por teclado
 
