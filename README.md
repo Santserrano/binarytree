@@ -36,13 +36,24 @@ pip install -r requirements.txt
 
 Ejecute algún test con valores previamente definidos desde CMD.
 Navegue hasta el directorio del repositorio y ejecute el siguiente comando:
-```python
+```bash
 python .\test.py
 ```
 Obtendrá la salida:
 
 ```bash
-$ python test.py
+
+Nombres agregados: ['emma', 'olivia', 'isabella', 'sofia', 'emily', 'talulah', 'candela']
+
+...Corriendo test
+
+Imprimiendo árbol preorden:
+emma, emily, candela, olivia, isabella, sofia, talulah,
+Imprimiendo árbol inorden:
+candela, emily, emma, isabella, olivia, sofia, talulah,
+Imprimiendo árbol postorden:
+candela, emily, isabella, talulah, sofia, olivia, emma,
+```
 
 ### Ejemplo de uso - valores por teclado
 
