@@ -1,7 +1,8 @@
 from engine.nodo import Nodo
+from engine.colors import colors
 
 class Arbol:
-    # Funciones privadas
+    
     def __init__(self, dato):
         self.raiz = Nodo(dato)
 
@@ -45,23 +46,21 @@ class Arbol:
         else:
             return self.__buscar(nodo.derecha, busqueda)
 
-    # Funciones públicas
-
     def agregar(self, dato):
         self.__agregar_recursivo(self.raiz, dato)
 
     def inorden(self):
-        print("Imprimiendo árbol inorden: ")
+        print(colors.RED + "Imprimiendo árbol inorden: " + colors.RESET)
         self.__inorden_recursivo(self.raiz)
         print("")
 
     def preorden(self):
-        print("Imprimiendo árbol preorden: ")
+        print(colors.YELLOW +"Imprimiendo árbol preorden: " + colors.RESET)
         self.__preorden_recursivo(self.raiz)
         print("")
 
     def postorden(self):
-        print("Imprimiendo árbol postorden: ")
+        print(colors.CYAN +"Imprimiendo árbol postorden: " + colors.RESET)
         self.__postorden_recursivo(self.raiz)
         print("")
 
