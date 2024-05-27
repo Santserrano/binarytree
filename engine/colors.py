@@ -1,6 +1,6 @@
-class colors:
+class colors: #Defino los codigos de colores para la salida de consola
     RED = '\033[91m'
-    GREEN = '\033[92m'
+    GREEN = '\033[92m' #Para facilitar el uso de colores los definimos previamente en una clase
     YELLOW = '\033[93m'
     BLUE = '\033[94m'
     MAGENTA = '\033[95m'
