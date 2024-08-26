@@ -1,6 +1,7 @@
 
 # Dijkstra's algorithm - Binary Tree
 ![arbol](binary-tree.png)
+
 Un pequeño motor de arbol binario que proporciona una clase principal Arbol, que sirve como estructura principal para construir el Nodo raiz y realizar los recorridos. Puedes iniciar y testear esta clase con el archivo `test.py` o también puede ejecutar `main.py` para ingresar sus valores propios por teclado.
 
 Guía rápida:
